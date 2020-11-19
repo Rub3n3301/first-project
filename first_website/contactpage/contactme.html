@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>contact me</title> 
+	<meta name="description" content="ruben wants YOU to contact him"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../stylesheet.css">
+</head> 
+<body> 
+	<header>
+		<nav class = topnav>
+			<a href="../index.html">homepage!</a>
+			<a href="../contactpage/contactme.html" class= active>contact me!</a>
+			<a href="../lyricspage/lyrics.html">coolest songs ever!</a>
+		</nav>
+	</header>
+ 
+<h1>contact me:</h1>
+        <form>
+            <input type="reset"><br>
+            <!--resets inputs for form-->
+			<section class= box-model id= contactbackround>
+				<section>
+					<label for="name">name:</label>
+					<input type="text" id="name"><br>
+
+					<label for="age">age:</label>
+					<input type="text" id="age"><br>
+
+					<label for="address">address:</label>
+					<input type="text" id="address"><br>
+
+					<label for= "email">email address:</label>
+					<input type="email" id="email">
+					<!--basic text and email inputs, labels should allow boxes to easily be selected-->
+				</section>
+				<section>
+					<label for=""gender>gender:</label><br>
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male</label><br>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label><br>
+					<input type="radio" id="other" name="gender" value="other">
+					<label for="other">Other</label><br><br>
+					<!--radio buttons for selecting gender-->
+				</section>
+				<section>
+					<label for="contact-reason">why are you contacting me:</label>
+					<select id="contact-reason" name="contact-reason">
+						<option value="compliment">compliment</option>
+						<option value="insult">insult</option>
+						<option value="constructive-criticism">constructive criticism</option>
+						<option value="job-offer">job offer</option>
+					</select><br>
+					<!--selection box for selecting contact reason-->
+				</section>
+				<section class= clearfix>
+					<textarea name="message" rows=10>enter query here</textarea>
+					<!--user can input multiple lines for query-->
+				</section>
+			</section>
+            <input type="submit" value="Submit">
+            <!--submit button doesnt do anything, yet...-->
+        </form>
+ 
+</body> 
+</html> 

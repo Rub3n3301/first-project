@@ -1,0 +1,91 @@
+body {
+    background-color: #11edb6;
+	font-family: arial;
+	margin-left: 20px;
+}
+h1, h2, h3 {
+  color: #ed3d11;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+.large {
+  font-size: 200%;
+  border-style:double;
+}
+.samesize {
+	height: 200px;
+	width: default;
+}
+.quad-split {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	padding: 0% 5%;
+}
+.triple-split {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	margin: 1%;
+	text-align: center;
+}
+.double-split {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 1%;
+	outline: dashed;
+}
+.box-item {
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #f54245;
+	background-color: #acfac0;
+	font-size: 90%;
+}
+.box-model {
+	display: grid;
+	outline: dashed;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: 50% 50%;
+	
+	
+}
+#contactbackround {
+	background-color: #35b4bd;
+	font-family: serif;
+}
+.clearfix {
+  overflow: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #3243fc;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	border-style: dashed;
+	border-width: 1px;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	  background-color: #0b136e;
+	  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	  background-color: #ff00e6;
+	  color: #0a0a0a;
+}
